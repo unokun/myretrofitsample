@@ -5,7 +5,7 @@
 この記事では、はてなブックマークエントリー情報取得APIを使って、ブックマーク一覧を取得しています。
 [http://developer.hatena.ne.jp/ja/documents/bookmark/apis/getinfo](http://developer.hatena.ne.jp/ja/documents/bookmark/apis/getinfo)
 
-はてなブックマークエントリー情報取得APIは、以下のURLでリクエストを送信するとjson形式で結果を取得することができます。
+はてなブックマークエントリー情報取得APIは、以下のURLのリクエストを送信するとjson形式で結果を返してくれるAPIです。
 ```
 http://b.hatena.ne.jp/entry/json/?url=http%3A%2F%2Fb.hatena.ne.jp%2Fctop%2Fit
 ```
@@ -35,10 +35,10 @@ http://b.hatena.ne.jp/entry/json/?url=http%3A%2F%2Fb.hatena.ne.jp%2Fctop%2Fit
 }
 ```
 
-## retrofit
+## retrofitとは
 retrofitは、HTTP通信レスポンスを、javaインスタンスにデータ変換するライブラリ。
 HTTP通信はOkHttpを使っています。
-データ変換は、複数の変換ライブラリから選択できる。
+データ変換は、複数の変換ライブラリから選択できます。
 * gson(json:google)
 * jackson(json:fasterxml)
 * moshi(json:squareup)
@@ -66,14 +66,16 @@ retrofitを使ったAndroidアプリは以下の手順で実装できます。
 jsonデータを参照して、javaインスタンス化したいクラスを作成します。
 
 * BookmarkContainer
+
 |name(json)|型(java)|プロパティ名|
 |:---|:---|:---|
 |related|無視||
 |count|Integer|count|
 |title|String|title|
-|bookmarks|List<Bookmark>|bookmarks|
+|bookmarks|List\<Bookmark\>|bookmarks|
 
 * Bookmark
+
 |name(json)|型(java)|プロパティ名|
 |:---|:---|:---|
 |comment|String comment|comment|
@@ -81,7 +83,8 @@ jsonデータを参照して、javaインスタンス化したいクラスを作
 |user|String|user|
 
 #### APIインタフェースを作成する
-GETの後ろに書くパスはベースURLからの相対パス。
+GETの後ろに書くパスはベースURLからの相対パスです。
+
 @Query("url")が?url=に変換されます。
 
 HatenaApiInterface.java
