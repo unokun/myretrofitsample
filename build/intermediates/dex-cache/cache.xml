@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_952bfaa44f4740f88d9cae86827beb7ddeffc66d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_61511d4e8fb22fc10a95eefd846fc06743b28c19/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.0.1_65986968c75e863c6859a35c12e4ed0c62fe55fa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_6451838f5b4eff27f2038bf1586809e4bea115f3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/unokun/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_08d3630bfd3df72cc249d2456b583370a32fae1d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/unokun/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_a3be9424a07caf57c82516923546dc0b5a8f252d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_4a6746e79efb1c2d91b22faca0cf628915a74a37/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/unokun/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_4228b409909c2ce248a50b27d2a88de05969041a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_0a838797e88119e92833cbd4ce16087f8f905028/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/unokun/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_eaa5cf07dac01c03a12cb19766a4d180b3fa58a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.1_444005932a479563b3314fb028670db259c4db02/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8fe8505dcc69eb12f14a223f440e5003e1d7d5ad">
+        <dex dex="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4f503f293e5cc682c10774b5816bce5e6bedb03a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.0.1_11197eb802a4afb144858f2ee7ac000799b73607/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/unokun/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.8.0_d8e134742078ce59bc1acc34a5bb1104166cc601/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_06ded45670346428c35e859eb3173d4c02f5badc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_96303498e938890e8ac68857b2d65cad2eccd5cf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_7d323ede0a7ba73715df8e65d77e5874a93613c2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_392ed7f9820e695697ef1471ffe180156fcc5302/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_c3405948f9bd4116ea19a471f9b84f4df77ebaaa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_e86601ed81eea4d49bd3d34245e4abe92d672d8d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_2fc7757645a810498cebbd5830f7ef2ac260212f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a512529e994351bbf8c8f87617698373d937b8a6">
+        <dex dex="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b719f0b498fc0cb64aedb101a09bca5006dd9731/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/unokun/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_7696d9cafaefbeb18992c38bda83da69ea97ecd8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_358a5cc2d3b97e07fa83304226a44d508d5dbbea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/unokun/projects/codecamp/android/MyRetrofitSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_ba2b5a534af642d4b9feb7f2991033a668055732/classes.dex" />
+    </item>
+
+</items>
