@@ -65,7 +65,7 @@ retrofitを使ったAndroidアプリは以下の手順で実装できます。
 ### データクラス(Bookmark/BookmarkContainer)を作成する
 jsonデータを参照して、javaインスタンス化したいクラスを作成します。
 
-* BookmarkContainer
+* BookmarkEntry
 
 |name(json)|型(java)|プロパティ名|
 |:---|:---|:---|
@@ -93,7 +93,7 @@ HatenaApiInterface.java
     String TARGET_URL = "http://b.hatena.ne.jp/ctop/it";
 
     @GET("/entry/jsonlite/")
-    Call<BookmarkContainer> getBookmarksWithUrl(@Query("url") String target);
+    Call<BookmarkEntryß> getBookmarkEntry(@Query("url") String target);
 ```
 
 #### retrofitを実行
@@ -114,16 +114,17 @@ MainActivity.java
 
         // インタフェース作成
         mApiInterface = retrofit.create(HatenaApiInterface.class);
-        execGetBookmarksWithUrl(HatenaApiInterface.TARGET_URL);
+        getBookmarkEntry(HatenaApiInterface.TARGET_URL);
     }
-    private void execGetBookmarksWithUrl(String targetUrl) {
+    private void getBookmarkEntry(String targetUrl) {
+        // ...
         // Hatena API呼び出し
-        Call<BookmarkContainer> call = mApiInterface.getBookmarksWithUrl(targetUrl);
-        call.enqueue(new Callback<BookmarkContainer>() {
+        Call<BookmarkEntry> call = mApiInterface.getBookmarksWithUrl(targetUrl);
+        call.enqueue(new Callback<BookmarkEntry>() {
             // onResponseとonFailureをオーバーライド
-            public void onResponse(Call<BookmarkContainer> call, Response<BookmarkContainer> response) {
+            public void onResponse(Call<BookmarkEntry> call, Response<BookmarkContainer> response) {
                 // HTTPレスポンスをJavaクラスで取得
-                BookmarkContainer container = response.body();
+                BookmarkEntry entry = response.body();
                 // ...
             }
         ｝

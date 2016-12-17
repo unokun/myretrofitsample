@@ -9,8 +9,8 @@ import java.util.List;
  * Created by unokun on 2016/12/17.
  */
 
-public class BookmarkContainer {
-    private static final String TAG = BookmarkContainer.class.getSimpleName();
+public class BookmarkEntry {
+    private static final String TAG = BookmarkEntry.class.getSimpleName();
 
     @Expose
     private List<Bookmark> bookmarks = new ArrayList<Bookmark>();
