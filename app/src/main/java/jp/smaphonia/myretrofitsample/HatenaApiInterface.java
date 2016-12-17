@@ -1,6 +1,6 @@
 package jp.smaphonia.myretrofitsample;
 
-import jp.smaphonia.myretrofitsample.data.BookmarkContainer;
+import jp.smaphonia.myretrofitsample.data.BookmarkEntry;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
@@ -16,6 +16,6 @@ public interface HatenaApiInterface {
     // はてなブックマークエントリー情報取得API
     // http://developer.hatena.ne.jp/ja/documents/bookmark/apis/getinfo
     @GET("/entry/jsonlite/")
-    Call<BookmarkContainer> getBookmarksWithUrl(@Query("url") String target);
+    Call<BookmarkEntry> getBookmarkEntry(@Query("url") String target);
 
 }

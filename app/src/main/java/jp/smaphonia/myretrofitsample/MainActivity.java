@@ -12,7 +12,7 @@ import android.widget.ListView;
 import java.util.List;
 
 import jp.smaphonia.myretrofitsample.data.Bookmark;
-import jp.smaphonia.myretrofitsample.data.BookmarkContainer;
+import jp.smaphonia.myretrofitsample.data.BookmarkEntry;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -20,6 +20,8 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
+    private static final String TAG = MainActivity.class.getSimpleName();
+
     private HatenaApiInterface mApiInterface;
     private ListView mListView;
 
@@ -39,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //        });
 
-        // 追加
+        // ここから追加
         mListView = (ListView) findViewById(R.id.listView);
 
         Retrofit retrofit = new Retrofit.Builder()
@@ -48,31 +50,38 @@ public class MainActivity extends AppCompatActivity {
                 .build();
 
         mApiInterface = retrofit.create(HatenaApiInterface.class);
-        execGetBookmarksWithUrl(HatenaApiInterface.TARGET_URL);
+        getBookmarkEntry(HatenaApiInterface.TARGET_URL);
     }
 
-    private void execGetBookmarksWithUrl(String targetUrl) {
-        Log.d("AAA", "execgetBookmarksWithUrl : targetUrl = " + targetUrl);
+    private void getBookmarkEntry(String targetUrl) {
+        Log.d(TAG, "getBookmarkEntry: targetUrl = " + targetUrl);
 
         // Hatena API呼び出し
-        Call<BookmarkContainer> call = mApiInterface.getBookmarksWithUrl(targetUrl);
-        call.enqueue(new Callback<BookmarkContainer>() {
+        Call<BookmarkEntry> call = mApiInterface.getBookmarkEntry(targetUrl);
+        call.enqueue(new Callback<BookmarkEntry>() {
             @Override
-            public void onResponse(Call<BookmarkContainer> call, Response<BookmarkContainer> response) {
-                Log.d("AAA", "Successed to request");
-                BookmarkContainer container = response.body();
-                List<Bookmark> bookmarks = container.getBookmarks();
-                ArrayAdapter<String> adapter = new ArrayAdapter<>(MainActivity.this, android.R.layout.simple_list_item_1);
+            public void onResponse(Call<BookmarkEntry> call, Response<BookmarkEntry> response) {
+                Log.d(TAG, "onResponse: " + response.isSuccessful());
+                BookmarkEntry entry = response.body();
+                List<Bookmark> bookmarks = entry.getBookmarks();
 
+                ArrayAdapter<String> adapter = new ArrayAdapter<>(MainActivity.this, android.R.layout.simple_list_item_1);
                 for (Bookmark b : bookmarks) {
-                    if (b.getComment().length() > 0) adapter.add(b.getComment());
+                    StringBuilder builder = new StringBuilder();
+                    builder.append(b.getUser() + "(" + b.getTimestamp() + ")");
+                    String comment = b.getComment();
+                    if (comment.length() > 0) {
+                        builder.append("\n" + comment);
+                    }
+
+                    adapter.add(builder.toString());
                 }
                 mListView.setAdapter(adapter);
             }
 
             @Override
-            public void onFailure(Call<BookmarkContainer> call, Throwable t) {
-                Log.d("AAA", "Failed to request : " + t.getCause() + ", " + t.getMessage());
+            public void onFailure(Call<BookmarkEntry> call, Throwable t) {
+                Log.d(TAG, "onFailure: " + t.getCause() + ", " + t.getMessage());
                 t.printStackTrace();
             }
         });
